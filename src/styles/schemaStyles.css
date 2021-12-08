@@ -1,0 +1,73 @@
+
+
+    .page-block,
+    .header-block,
+    .middle-block,
+    .row-block,
+    .content-block,
+    .aside-block,
+    .footer-block,
+    .nav-block,
+    .nav-block2 {
+      border: 2px solid black;
+      margin: auto;
+      margin-top: 10px;
+    }
+
+    .page-block {
+      text-align: center;
+      margin-top: 20px;
+      background: pink;
+      width: 90%;
+      height: auto;
+    }
+
+    .header-block {
+      background: green;
+      height: 190px;
+      width: 90%;
+
+    }
+
+    .nav-block {
+      background: gray;
+      width: 90%;
+      height: 50%;
+    }
+
+    .wrapper {
+      display: flex;
+      height: 450px;
+      padding: 10px;
+    }
+
+    #content-block {
+      background-color: blue;
+    }
+
+    /* INDENTIFIER TURI PRIORITETA, BET AS GALIU JI PERASYT
+    inheritina paddinga is tevo */
+    .content-block {
+      width: 60%;
+      height: 80%;
+      background-color: red !important;
+    }
+
+    /* INDENTIFIER TURI PRIORITETA, BET AS GALIU JI PERASYT */
+    #aside-block {
+      background-color: green;
+    }
+
+    /* inheritina paddinga is tevo */
+    .aside-block {
+      width: 40%;
+      height: 80%;
+      background-color: orange !important;
+    }
+
+    .footer-block {
+      height: 80px;
+      width: 90%;
+      background-color: white;
+      margin-top: 10px;
+    }

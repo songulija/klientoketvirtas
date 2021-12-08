@@ -1,0 +1,8 @@
+table,td,th {
+    border: 1px solid #adadad;
+}
+
+table {
+    width: 85%;
+    border-collapse: collapse;
+}
